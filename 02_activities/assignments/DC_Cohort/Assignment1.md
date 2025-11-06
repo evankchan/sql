@@ -197,7 +197,7 @@ Steps to complete this part of the assignment:
 Read: Qadri, R. (2021, November 11). _When Databases Get to Define Family._  Wired. <br>
     https://www.wired.com/story/pakistan-digital-database-family-design/
 
-Link if you encounter a paywall: https://archive.is/srKHV or https://web.archive.org/web/20240422105834/https://www.wired.com/story/pakistan-digital-database-family-design/
+Link if you encounter a paywall: https://web.archive.org/web/20240422105834/https://www.wired.com/story/pakistan-digital-database-family-design/
 
 **What values systems are embedded in databases and data systems you encounter in your day-to-day life?**
 
@@ -205,5 +205,9 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+The Question: What values systems are embedded in databases and data systems you encounter in your day-to-day life?
+
+Consider, for example, concepts of fariness, inequality, social structures, marginalization, intersection of technology and society, etc.
+
+For me personally, the story of Riz is very touching, because there are notions and aspect of database that don't always capture the nuance ideas of identity, especially hidden identities. For example, in my day-to-day life, I have friends that do not necessarily belong to the "0" or "1" distinctions of "Male" and "female." Coming from China, where this is the only distinction, data and the way it is encoded into databases can be discriminatory and marginalize certain groups, in this case, the non-binary community. Similarly, for citing relatinoship status, if you ever complete tax filings for the government of Canada, they don't have a large assortment of options to encode into the national registry (i.e., Widow, single, divorced etc.). If anything that I have learned from this article, it is that data and the way data is structured can marginalize many minority groups without intentionally doing so. I can't say for sure what specific value systems are embedded -as making a blanket statement would not be suiting. However, there are definitely values and perspectives that are not considered. One question I might have is how can we engage the public/stakeholders when building these databases and registries and systems ?
 ```
