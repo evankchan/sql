@@ -54,7 +54,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+After googling what these two type 1 and type 2 mean (not related to diabetes), type 1 is essentially overwriting existing data and type 2 is tracking history. I imagin that to keep addresses we use type 2, in that in the table there are multiple entries by the same customer but with different addresses and at different points in time (presumably the customer moved). In the type 1 case, the architecture of the table would enable each customer to only have one customer_id label and address! 
 ```
 
 ***
@@ -183,5 +183,11 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+Prior to reading this article, I always roughly had an idea of what ImageNet was and the famous researcher from China that is Dr. Fei-Fei Li. However, I did not recognize the extent to which this involved thousands of hours of tagging and intensive-cheap labour work. I think there are 3 main ethical considerations to contemplate. 
+
+The first ethical consideration is consent and copyright. Currently, a large section of my doctoral research touches on GenAI in the contexts of music. One issue behind this is that while we can train neural networks and optical computer recognition (OCR) technology to optimize machine visioning so that can read sheet music, the issue remaining is that quite often these models do not have licenses or a legal consent to use such images as part of their training data. What if the images that were tagged were obtained through illegal means or not consented? Furthermore, do we really know where these images came from? While you could argue that all of these images were "free-for-all" given that they exist on the internet, scientists and researchers have to abide by more stringent regulations in this regard. One is not necessarily building a dataset for oneself, but for research and commercialization. I work for a company known as Swift Medical, where we have the largest wounds database in the world. However, a large majority of our datasets required patient consent and willingness to be imaged and have data collected in order to fine tune neural networks/machine visioning platforms for detecting and tracking dermatological conditions. 
+
+The second ethical consideration is in the conception of labour. As a former research assistant myself, I can sympathize with the $10/hour labelling work that Dr. Li's research assistant's had to go through. Such mundane work is something that I have suffered through before. However, I am not necessarily a proponent of outsourcing work to Amazon Turk in particular. I would much rather Prolific. This is because, as the article has stated, the workmanship in Amazon Turk can be considerably lower. Furthermore, since the economic incentive of Turk is much lower, the demand for a so-called "high quality" finish is less. The lack of adequate payment is something that could really skew the dataset. 
+
+Finally, a crucial ethical consideration lies in the notion of content moderation. In many ways, images--just like art, music, and other fine art forms--can be subjective. One person may label the image one way, while another may label it differently. Human labellers inevitably carry inherent biases that can be harmful, especially if those biases are inputted into their labelling practices. For example, the concept of "weak" and "nerdy" in a person with glasses is a harmful narrative that becomes only perpetuated if such a case is part of the dataset (dependant on weighting, tuning parameters etc.). In what ways can LLMs and models perpetuate harmful narratives because it was fed a specific flavour of data (which was initially subjective)? Furthermore, is anyone really moderating this asides from the occasional pushback? 
 ```
